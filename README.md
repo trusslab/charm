@@ -16,9 +16,10 @@ Please refer to our paper for technical details: [USENIX paper](http://www.ics.u
 It is strongly recommended to backup your system before proceeding.
 
 ### Hardware
-
+You need to access to a linux machine with at least 4GB of RAM and 200GB storage.  
 
 ### Software
+The instruction has been tested on a linux server with ubuntu 16.4. you need to install the build essentials for each project prior to build them. 
 
 ## Charm organizaiton
 
@@ -160,8 +161,7 @@ to install the built Ubuntu on your system:
 sudo dpkg -i linux-*4.10.0-28.32*.deb
 ```
 #### Update the Grub
-???
-You need to reboot your machine and boot the new Ubuntu.
+You need to ubdate the Grub and reboot your machine and boot the new Ubuntu.
 
 
 

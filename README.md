@@ -9,7 +9,7 @@ _____________________________
 
 Charm facilitates dynamic analysis of device drivers of mobile systems. This document is a toturial to build Charm on Linux. 
 
-Please refer to our paper for technical details: [USENIX paper](http://www.ics.uci.edu/~ardalan/papers)
+Please refer to our paper for technical details: [USENIX paper](http://www.ics.uci.edu/~ardalan/papers/SeyedTalebi_USENIX_Security18.pdf)
 
 ## Prerequisites
 

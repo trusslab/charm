@@ -49,7 +49,7 @@ _____________________________
 
 ### build Phone OS
 #### Download source code
-Follow the documention for building Lineage OS (version cm-14.1) for bullhead, from [here](http://https://wiki.lineageos.org/devices/bullhead/build "here").
+Follow the documention for building Lineage OS (version cm-14.1) for bullhead, from [here](https://wiki.lineageos.org/devices/bullhead/build "here").
 Note: you need to change these two lines of the documentation:
 
 ~~cd ~/android/lineage

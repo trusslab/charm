@@ -59,7 +59,7 @@ Instead use:
 cd Charm/bullhead_lineage
 repo init -u https://github.com/LineageOS/android.git -b cm-14.1
 ```
-Note: It might take a few hours to finish.
+Note: It might take a few hours to finish. <br />
 Note: Repo needs "python" to run. Python is not installed by default in recent distributions of Ubuntu. install python using: `$ sudo apt install python-minimal`
 #### Apply changes
 Considering you are in `Charm/bullhead_lineage/` directory, In order to apply our changes, perform following steps:

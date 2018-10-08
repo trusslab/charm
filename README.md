@@ -89,8 +89,8 @@ git checkout -b Charm charm_origin/Charm
 #### Build
 To build the system go back to `Charm/bullhead_lineage/`, and run:
 ```bash
-  source ./build/envsetup.sh
-   brunch lineage_bullhead-eng
+ source ./build/envsetup.sh
+ brunch lineage_bullhead-eng
 ```
 Note: You might need to run `export LANG=C` prior bruch command if you are using newer ubuntu distributions for building.
 

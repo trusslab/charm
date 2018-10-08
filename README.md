@@ -122,8 +122,9 @@ repo sync
 then you need to apply Charm changes to the QEMU. 
 ```bash
 cd external/qemu
-git fetch  https://github.com/trusslab/charm_emulator.git 
-git checkout Charm
+git remote add charm_origin https://github.com/trusslab/charm_emulator.git 
+git fetch charm_origin
+git checkout -b Charm charm_origin/Charm
 ```
 #### Build
 in order to build the emulator:

@@ -89,6 +89,8 @@ To build the system go back to `Charm/bullhead_lineage/`, and run:
   source ./build/envsetup.sh
    brunch lineage_bullhead-eng
 ```
+Note: You might need to run `export LANG=C` prior bruch command if you are using newer ubuntu distributions for building.
+
 #### Install on the Phone
 After build proccess finshes you need to Install the Android on your phone.  Connect your Nexus5x Phone to your system and run:
 ```bash

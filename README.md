@@ -46,8 +46,10 @@ mkdir Host_Ubuntu
 mkdir Syzkaller
 ```
 _____________________________
-You can skip build process and download a built image from [here](https://drive.google.com/file/d/1W77VjxRwsZLM1T96mqqWJODWpfV54JBX/view) or you may build from the source as following:
+
 ### build Phone OS
+
+You can skip build process and download a built image from [here](https://drive.google.com/file/d/1W77VjxRwsZLM1T96mqqWJODWpfV54JBX/view) or you may build from the source as following:
 
 #### Download source code
 Follow the documention for building Lineage OS (version cm-14.1) for bullhead, from [here](https://wiki.lineageos.org/devices/bullhead/build "here").

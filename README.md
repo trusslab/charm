@@ -48,6 +48,7 @@ mkdir Syzkaller
 _____________________________
 
 ### build Phone OS
+You can skip build process and download a built image from [here](https://drive.google.com/file/d/1W77VjxRwsZLM1T96mqqWJODWpfV54JBX/view)
 #### Download source code
 Follow the documention for building Lineage OS (version cm-14.1) for bullhead, from [here](https://wiki.lineageos.org/devices/bullhead/build "here").
 Note: you need to change these two lines of the documentation:

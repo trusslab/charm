@@ -65,20 +65,23 @@ Note: Repo needs "python" to run. Python is not installed by default in recent d
 Considering you are in `Charm/bullhead_lineage/` directory, In order to apply our changes, perform following steps:
 ```bash
 cd kernel/lge/bullhead
-git fetch https://github.com/trusslab/charm_bullhead_kernel.git
-git checkout Charm
+git remote add charm_origin https://github.com/trusslab/charm_bullhead_kernel.git
+git fetch charm_origin
+git checkout -b Charm charm_origin/Charm
 ```
 go back to `Charm/bullhead_lineage/`, then:
 ```bash
 cd system/core
-git fetch https://github.com/trusslab/charm_bullhead_core.git
-git checkout Charm
+git remote add charm_origin https://github.com/trusslab/charm_bullhead_core.git
+git fetch charm_origin
+git checkout -b Charm charm_origin/Charm
 ```
 go back to `Charm/bullhead_lineage/`, then:
 ```bash
 cd frameworks/native
-git fetch https://github.com/trusslab/charm_bullhead_native.git
-git checkout Charm
+git remote add charm_origin
+git fetch charm_origin
+git checkout -b Charm charm_origin/Charm
 ```
 #### Build
 To build the system go back to `Charm/bullhead_lineage/`, and run:

@@ -108,6 +108,7 @@ You can find the LineageOS installer package under the name `lineage-14.1-[DATE]
 ```bash
 adb sideload  lineage-14.1-[DATE]-UNOFFICIAL-bullhead.zip
 ```
+Lineage OS 14-1 for bullhead is compatible with n2g47f vendor image, you might need to update your phone's vendor image if it has a different image. You can find n2g47f images [here](https://drive.google.com/file/d/1ZPsOIP6xReLNm8vGz8lE-cXPgFJb1u8T/view?usp=sharing). It is recommanded to update radio and bootloader images to n2g47f as well. 
 _____________________________
  ### build Android emulator
  #### Download source code

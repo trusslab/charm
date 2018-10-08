@@ -82,7 +82,7 @@ git checkout -b Charm charm_origin/Charm
 go back to `Charm/bullhead_lineage/`, then:
 ```bash
 cd frameworks/native
-git remote add charm_origin
+git remote add charm_origin https://github.com/trusslab/charm_bullhead_native.git
 git fetch charm_origin
 git checkout -b Charm charm_origin/Charm
 ```

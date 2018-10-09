@@ -190,3 +190,10 @@ install device tree compiler using
 ```bash
 sudo apt install device-tree-compiler
 ```
+Then you need to get the gcc compiler for building the android as following:
+```bash
+cd ~/Charm/goldfish_AOSP
+mkdir compiler
+cd compiler
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9
+```

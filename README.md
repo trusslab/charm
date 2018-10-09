@@ -182,6 +182,6 @@ _____________________________
 download the operating systme for the Charm's VM. 
 ```bash
 cd goldfish_AOSP
-git clone https://github.com/trusslab/charm_emulator_kernel.git -b Charm
+git clone https://github.com/trusslab/charm_emulator_kernel.git -b charm_goldfish_camera
 ```
 

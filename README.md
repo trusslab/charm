@@ -1,4 +1,4 @@
-# Build charm from Source
+# Build Charm from Source
 
 Copyright (c) 2016-2018 University of California, Irvine. All rights reserved.
 

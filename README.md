@@ -184,4 +184,9 @@ download the operating systme for the Charm's VM.
 cd goldfish_AOSP
 git clone https://github.com/trusslab/charm_emulator_kernel.git -b charm_goldfish_camera
 ```
-
+#### Build
+first you need to install prerequisites.
+install device tree compiler using
+```bash
+sudo apt install device-tree-compiler
+```

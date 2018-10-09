@@ -197,3 +197,8 @@ mkdir compiler
 cd compiler
 git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9
 ```
+Then to build the kernel
+```bash
+cd ~/Charm/goldfish_AOSP/charm_emulator_kernel
+source build_x86_64.sh
+```

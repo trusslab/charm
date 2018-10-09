@@ -174,7 +174,14 @@ sudo dpkg -i linux-*4.10.0-28.32*.deb
 #### Update the Grub
 You need to ubdate the Grub and reboot your machine and boot the new Ubuntu.
 
+_____________________________
 
+### build VM OS
+ #### Download source code
 
-
+download the operating systme for the host. 
+```bash
+cd goldfish_AOSP
+git clone https://github.com/trusslab/charm_emulator_kernel.git -b Charm
+```
 

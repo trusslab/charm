@@ -165,6 +165,7 @@ First you need to install the prerequisites:
 sudo apt install gawk
 sudo apt install debhelper
 sudo apt install libudev-dev
+sudo apt install pciutils-dev 
 ```
 Then build the ubuntu using build script.
 ```bash

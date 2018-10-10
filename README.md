@@ -166,6 +166,7 @@ sudo apt install gawk
 sudo apt install debhelper
 sudo apt install libudev-dev
 sudo apt install pciutils-dev 
+sudo apt install libelf-dev
 ```
 Then build the ubuntu using build script.
 ```bash

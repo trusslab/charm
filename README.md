@@ -159,7 +159,13 @@ cd Host_Ubuntu
 git clone https://github.com/trusslab/charm_host_kernel.git -b Charm
 ```
 #### Build
-First install debhelper using `sudo apt install debhelper`, and install gawk using `sudo apt install gawk`.   
+   
+First you need to install the prerequisites:
+```bash
+sudo apt install gawk
+sudo apt install debhelper
+sudo apt install libudev-dev
+```
 Then build the ubuntu using build script.
 ```bash
 cd charm_host_kernel

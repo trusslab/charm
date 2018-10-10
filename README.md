@@ -159,7 +159,8 @@ cd Host_Ubuntu
 git clone https://github.com/trusslab/charm_host_kernel.git -b Charm
 ```
 #### Build
-build the ubuntu using build script.
+First install debhelper using `sudo apt install debhelper`. 
+Then build the ubuntu using build script.
 ```bash
 cd charm_host_kernel
 source build.sh

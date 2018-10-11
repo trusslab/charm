@@ -221,7 +221,9 @@ To make an AVD you need to download and install the [latest Android Studio](http
 Then open Android Studio, enter 'Cntrl+Shift+a'  to open search menu, then type `AVD manager` and open AVD manager.  
 Select Nexus5x in AVD manager.
 ![AVD1](pictures/AVD1.png)
-In next step you need to check for the Nougat android and an ABI suitable for your machine.
+In the next step you need to check for the Nougat android and an ABI suitable for your machine.
 ![AVD2](pictures/AVD2.png)
+In the next step name your AVD `Nexus_5x_Charm` and set both camera options to `None`.
+![AVD3](pictures/AVD2.png)
 
 

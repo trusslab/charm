@@ -218,7 +218,8 @@ _____________________________
 First you need to make an Android Virtual Device(AVD) to run the emulator.
 #### Make an AVD
 To make an AVD you need to download and install the [latest Android Studio](https://developer.android.com/studio/) first.  
-Then open Android Studio, enter 'Cntrl+Shift+a'  to open search menu, then type `AVD manager` and open AVD manager.
+Then open Android Studio, enter 'Cntrl+Shift+a'  to open search menu, then type `AVD manager` and open AVD manager.  
+Select Nexus5x in AVD manager.
 ![AVD1](pictures/AVD1.png)
 
 

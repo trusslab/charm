@@ -221,5 +221,7 @@ To make an AVD you need to download and install the [latest Android Studio](http
 Then open Android Studio, enter 'Cntrl+Shift+a'  to open search menu, then type `AVD manager` and open AVD manager.  
 Select Nexus5x in AVD manager.
 ![AVD1](pictures/AVD1.png)
+In next step you need to check for the Nougat android and an ABI suitable for your machine.
+![AVD2](pictures/AVD2.png)
 
 

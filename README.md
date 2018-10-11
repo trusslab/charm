@@ -224,6 +224,6 @@ Select Nexus5x in AVD manager.
 In the next step you need to check for the Nougat android and an ABI suitable for your machine.
 ![AVD2](pictures/AVD2.png)
 In the next step name your AVD `Nexus_5x_Charm` and set both camera options to `None`.
-![AVD3](pictures/AVD2.png)
+![AVD3](pictures/AVD3.png)
 
 

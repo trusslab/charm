@@ -212,3 +212,12 @@ cd ~/Charm/goldfish_AOSP/charm_emulator_kernel
 source build_x86_64.sh
 ```
 Then you need to download the [ramdisk.img](https://drive.google.com/open?id=16Tb9zvMJgMMz5OjmD_TPAkgWke2hUVq4), [system.img](https://drive.google.com/file/d/1i9_xYUouLacay61PV1sfNGoOseCF8DdK/view?usp=sharing), and the [userdata.img](https://drive.google.com/open?id=19InKHZPvN3zXdLBxldiQ9XUwc9u4dkof) and save them in `~/Charm/goldfish_AOSP/` folder.
+_____________________________
+
+### Run Charm emulator
+First you need to make an Android Virtual Device(AVD) to run the emulator.
+#### Make an AVD
+To make an AVD you need to download and install the [latest Android Studio](https://developer.android.com/studio/) first.  
+Then open Android Studio, enter Cntrl+Shift+a to open search menu type `AVD manager` and open AVD manager.
+
+

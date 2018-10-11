@@ -225,11 +225,20 @@ In the next step you need to check for the Nougat android and an ABI suitable fo
 ![AVD2](pictures/AVD2.png)
 In the next step name your AVD `Nexus_5x_Charm` and set both camera options to `None`.
 ![AVD3](pictures/AVD3.png)
-#### Make Charm emulator using scripts
+#### Run Charm emulator using scripts
+
 first you need to download the scripts to run Charm emulator.
 ```bash
 cd ~/Charm/
 git clone https://github.com/trusslab/charm.git
 ```
-
-
+Then you need to update the scripts using your phone device ID. you can find your phone device ID using:
+```bash
+adb devices
+```
+to update the script with your device ID:
+```bash
+cd ~/Charm/charm/scripts
+vim charm_run.sh
+```
+then edit the DEVICE_ID and run the `charm_run.sh`.

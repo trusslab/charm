@@ -162,12 +162,7 @@ git clone https://github.com/trusslab/charm_host_kernel.git -b Charm
    
 First you need to install the prerequisites:
 ```bash
-sudo apt install gawk
-sudo apt install debhelper
-sudo apt install libudev-dev
-sudo apt install pciutils-dev 
-sudo apt install libelf-dev
-sudo apt install autoconf
+sudo apt install gawk debhelper libudev-dev pciutils-dev libelf-dev autoconf libtool
 
 ```
 Then build the ubuntu using build script.

@@ -112,7 +112,7 @@ Lineage OS 14-1 for bullhead is compatible with n2g47f vendor image, you might n
 _____________________________
  ### build Android emulator
  #### Download source code
-downlaod the source for android emulator from Google. Assume you are in `Charm/` directory:
+download the source for android emulator from Google. Assume you are in `Charm/` directory:
 ```bash
 cd Android_emulator
 repo init -u https://android.googlesource.com/platform/manifest -b emu-2.4-release
